@@ -393,24 +393,21 @@ h1, h2, h3 {
 }
 
 .evolution-content h2 {
-    font-size: clamp(28px, 4vw, 42px);
-    margin-bottom: 24px;
-    font-weight: 500;
+    font-size: clamp(50px, 5vw, 72px);
+    font-weight: 300;
+    color: #ffffff;
 }
 
 .evolution-sub {
-    font-size: 20px;
-    opacity: 0.9;
-    margin-bottom: 12px;
+    font-size: clamp(20px, 2vw, 28px);
+    font-weight: 400;
+    color: rgba(255,255,255,0.9);
 }
 
 .evolution-highlight {
-    font-family: 'Montserrat', sans-serif;
-    font-size: clamp(42px, 5vw, 72px);
-    font-weight: 800;
+    font-size: clamp(22px, 2.2vw, 34px);
+    font-weight: 700;
     color: #d8a8ff;
-    line-height: 1.1;
-    margin-top: 20px;
 }
 
 /* ==========================================================================
