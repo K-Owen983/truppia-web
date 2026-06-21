@@ -63,9 +63,9 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-/* Ajuste 3: Altura a 65px y colores nativos originales */
+/* Ajuste 3: Altura a 38px y colores nativos originales */
 .brand-logo-img {
-    height: 65px; 
+    height: 38px; 
     width: auto;
     object-fit: contain;
     transition: var(--transition-smooth);
