@@ -479,6 +479,18 @@ h1, h2, h3 {
 .footer-logo {
     margin-bottom: 24px;
 }
+.footer-services {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-purple);
+}
+
+.footer-email {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+}
 
 /* Último Ajuste: Altura a 55px y eliminación del filtro */
 .footer-logo-img {
