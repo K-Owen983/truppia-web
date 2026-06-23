@@ -370,7 +370,7 @@ h1, h2, h3 {
     position: relative;
     padding: 120px 4%;
     /* Ajuste 2: Sustitución por archivo local oficial */
-    background: url('futuro-truppia.jpg') no-repeat center center/cover;
+    background: url('futuro-truppia.jpeg') no-repeat center center/cover;
     text-align: center;
 }
 
