@@ -116,7 +116,13 @@ h1, h2, h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(52, 28, 84, 0.92) 0%, rgba(26, 12, 45, 0.88) 100%);
+
+    background: linear-gradient(
+        135deg,
+        rgba(52, 28, 84, 0.55) 0%,
+        rgba(26, 12, 45, 0.45) 100%
+    );
+
     z-index: 1;
 }
 
