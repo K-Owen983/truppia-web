@@ -393,23 +393,33 @@ h1, h2, h3 {
 }
 
 .evolution-content h2 {
-    font-size: clamp(50px, 5vw, 72px);
-    font-weight: 300;
+    font-size: clamp(46px, 4.5vw, 68px);
+    font-weight: 200;
     color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 25px;
 }
 
 .evolution-sub {
-    font-size: clamp(20px, 2vw, 28px);
-    font-weight: 400;
-    color: rgba(255,255,255,0.9);
+    font-size: clamp(18px, 1.8vw, 24px);
+    font-weight: 300;
+    color: rgba(255,255,255,0.92);
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
-
 .evolution-highlight {
-    font-size: clamp(22px, 2.2vw, 34px);
+    font-size: clamp(24px, 2.5vw, 38px);
     font-weight: 700;
-    color: #d8a8ff;
-}
+    color: #c98bff;
 
+    line-height: 1.15;
+
+    max-width: 850px;
+
+    margin: 15px auto 0 auto;
+
+    text-align: center;
+}
 /* ==========================================================================
    PANTALLA 7: CONTACTO & FOOTER INTEGRADO
    ========================================================================== */
