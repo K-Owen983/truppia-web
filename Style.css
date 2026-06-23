@@ -328,7 +328,7 @@ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 700;
-    color: var(--primary-purple);
+    color: #9C7BFF;
     letter-spacing: 0.15em;
     display: inline-block;
     margin-bottom: 20px;
@@ -352,7 +352,7 @@ h1, h2, h3 {
 
 .btn-dark-purple {
     display: inline-block;
-    background-color: var(--primary-purple);
+    background-color: #7A5CA8;
     color: var(--white);
     padding: 15px 35px;
     font-family: 'Montserrat', sans-serif;
@@ -417,7 +417,7 @@ h1, h2, h3 {
    PANTALLA 7: CONTACTO & FOOTER INTEGRADO
    ========================================================================== */
 .contact-section {
-    padding: 120px 4% 80px 4%;
+    padding: 120px 4% 120px 4%;
     background-color: var(--white);
     text-align: center;
 }
