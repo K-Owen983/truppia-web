@@ -417,7 +417,7 @@ h1, h2, h3 {
    PANTALLA 7: CONTACTO & FOOTER INTEGRADO
    ========================================================================== */
 .contact-section {
-    padding: 120px 4% 160px 4%;
+    padding: 120px 4% 120px 4%;
     background-color: var(--white);
     text-align: center;
 }
