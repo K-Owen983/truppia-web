@@ -121,24 +121,28 @@ h1, h2, h3 {
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 900px;
+    max-width: 700px;
     padding: 0 20px;
+    margin: 0 auto;
 }
 
 .hero-title {
-    font-size: clamp(40px, 7vw, 76px);
-    line-height: 1.1;
+    font-size: clamp(36px, 6vw, 62px);
+    line-height: 1.05;
     color: var(--white);
-    margin-bottom: 24px;
-    font-weight: 800;
+    margin-bottom: 20px;
+    font-weight: 700;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.hero-subtitle {
-    font-size: clamp(16px, 2.5vw, 22px);
-    color: rgba(255, 255, 255, 0.85);
-    margin-bottom: 40px;
-    font-weight: 300;
-    letter-spacing: 0.03em;
+.hero-title {
+    font-size: clamp(36px, 6vw, 62px);
+    line-height: 1.05;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .btn-primary {
