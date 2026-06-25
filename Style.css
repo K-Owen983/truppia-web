@@ -375,7 +375,6 @@ h1, h2, h3 {
 .evolution-banner {
     position: relative;
     padding: 120px 4%;
-    /* Ajuste 2: Sustitución por archivo local oficial */
     background: url('futuro-truppia.jpeg') no-repeat center center/cover;
     text-align: center;
 }
@@ -390,7 +389,7 @@ h1, h2, h3 {
 .evolution-content {
     position: relative;
     z-index: 2;
-    max-width: 760px;
+    max-width: 800px;
     margin: 0 auto;
     color: var(--white);
 }
@@ -400,19 +399,20 @@ h1, h2, h3 {
     font-weight: 300;
     line-height: 1.05;
     color: #ffffff;
-    margin-bottom: 40px;
-   
-.evolution-sub {
-    font-size: 22px;
-    margin-bottom: 38px;
-    line-height: 1.45;
+    margin-bottom: 25px;
 }
 
-   .evolution-highlight {
+.evolution-sub {
+    font-size: 22px;
+    margin-bottom: 18px;
+    line-height: 1.3;
+}
+
+.evolution-highlight {
     font-size: 26px;
     font-weight: 800;
     color: #c3a3dc;
-    line-height: 1.35;
+    line-height: 1.2;
 }
 /* ==========================================================================
    PANTALLA 7: CONTACTO & FOOTER INTEGRADO
