@@ -394,7 +394,7 @@ h1, h2, h3 {
 
 .evolution-content{
     position:relative;
-    z-index:2;
+    z-index:1;
 
     max-width:800px;
 
