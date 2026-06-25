@@ -372,17 +372,11 @@ h1, h2, h3 {
 /* ==========================================================================
    PANTALLA 6: BANNER EVOLUCIÓN
    ========================================================================== */
-.evolution-banner {
-    position: relative;
-    min-height: 620px;
-    padding: 0 4%;
-    background: url('futuro-truppia.jpeg') no-repeat center center/cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
+.evolution-banner{
+    position:relative;
+    padding:120px 4%;
+    background:url(...) no-repeat center center/cover;
+    text-align:center;
 }
 
 .evolution-overlay {
