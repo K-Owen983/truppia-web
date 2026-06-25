@@ -372,11 +372,11 @@ h1, h2, h3 {
 /* ==========================================================================
    PANTALLA 6: BANNER EVOLUCIÓN
    ========================================================================== */
-.evolution-banner{
-    position:relative;
-    padding:120px 4%;
-    background:url(...) no-repeat center center/cover;
-    text-align:center;
+.evolution-banner {
+    position: relative;
+    padding: 120px 4%;
+    background: url('futuro-truppia.jpeg') no-repeat center center/cover;
+    text-align: center;
 }
 
 .evolution-overlay {
@@ -386,15 +386,12 @@ h1, h2, h3 {
     );
 }
 
-.evolution-content{
-    position:relative;
-    z-index:1;
-
-    max-width:800px;
-
-    margin:0 auto;
-
-    padding:40px 0;
+.evolution-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--white);
 }
 
 .evolution-content h2 {
@@ -407,8 +404,8 @@ h1, h2, h3 {
 
 .evolution-sub {
     font-size: 22px;
-    margin-bottom: 18px;
     line-height: 1.25;
+    margin-bottom: 18px;
 }
 
 .evolution-highlight {
