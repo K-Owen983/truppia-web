@@ -415,149 +415,169 @@ h1, h2, h3 {
     line-height: 1.2;
 }
 /* ==========================================================================
-   PANTALLA 7: CONTACTO & FOOTER INTEGRADO
+   FOOTER PREMIUM TRUPPIA
    ========================================================================== */
-.contact-section {
-    padding: 120px 4% 120px 4%;
-    background-color: var(--white);
-    text-align: center;
+
+.main-footer{
+    border-top:1px solid rgba(52,28,84,.08);
+    background:#ffffff;
+    padding:70px 6% 35px;
 }
 
-.contact-container {
-    max-width: 600px;
-    margin: 0 auto;
+/* Contenedor principal */
+
+.footer-container{
+    max-width:1200px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:60px;
+    align-items:flex-start;
 }
 
-.contact-title {
-    font-size: clamp(36px, 6vw, 54px);
-    color: var(--primary-purple);
-    margin-bottom: 16px;
-    font-weight: 700;
+/* Primera columna */
+
+.footer-brand{
+    display:flex;
+    flex-direction:column;
 }
 
-.contact-subtitle {
-    font-size: 16px;
-    color: var(--text-muted);
-    margin-bottom: 40px;
+.footer-logo-img{
+    width:180px;
+    height:auto;
+    margin-bottom:20px;
 }
 
-.email-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    background-color: var(--light-purple-bg);
-    padding: 14px 28px;
-    border-radius: 30px;
-    border: 1px solid rgba(52, 28, 84, 0.08);
+.footer-tagline{
+    font-family:'Montserrat',sans-serif;
+    font-size:22px;
+    font-weight:700;
+    color:var(--primary-purple);
+    margin-bottom:15px;
+    line-height:1.3;
 }
 
-.email-icon {
-    color: var(--primary-purple);
-    font-size: 18px;
+.footer-description{
+    font-size:15px;
+    color:var(--text-muted);
+    line-height:1.8;
+    max-width:420px;
 }
 
-.email-badge a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--primary-purple);
-    text-decoration: none;
-    transition: opacity 0.2s ease;
+.footer-email{
+    margin-top:20px;
+    font-weight:700;
+    color:var(--primary-purple);
 }
 
-.email-badge a:hover {
-    opacity: 0.8;
+/* Columnas */
+
+.footer-column h3{
+    font-family:'Montserrat',sans-serif;
+    color:var(--primary-purple);
+    font-size:18px;
+    margin-bottom:20px;
 }
 
-/* Footer */
-.main-footer {
-    border-top: 1px solid rgba(52, 28, 84, 0.06);
-    padding: 60px 4% 40px 4%;
-    text-align: center;
-    background-color: var(--white);
+.footer-column ul{
+    list-style:none;
+    padding:0;
+    margin:0;
 }
 
-.footer-logo {
-    margin-bottom: 24px;
-}
-.footer-services {
-    margin-top: 15px;
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--primary-purple);
+.footer-column li{
+    margin-bottom:12px;
 }
 
-.footer-email {
-    margin-top: 8px;
-    font-size: 14px;
-    color: var(--text-muted);
+.footer-column a{
+    color:var(--text-muted);
+    text-decoration:none;
+    transition:.25s;
 }
 
-/* Último Ajuste: Altura a 55px y eliminación del filtro */
-.footer-logo-img {
-    height: 55px;
-    width: auto;
-    object-fit: contain;
+.footer-column a:hover{
+    color:var(--primary-purple);
 }
 
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 30px;
+/* Redes */
+
+.footer-social{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
 }
 
-.social-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    background-color: var(--light-purple-bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary-purple);
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    border: 1px solid rgba(52, 28, 84, 0.05);
-    transition: var(--transition-smooth);
+.footer-social a{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:var(--light-purple-bg);
+    color:var(--primary-purple);
+    text-decoration:none;
+    transition:.3s;
+    border:1px solid rgba(52,28,84,.08);
 }
 
-.social-icon:hover {
-    background-color: var(--primary-purple);
-    color: var(--white);
-    transform: scale(1.1);
+.footer-social a:hover{
+    background:var(--primary-purple);
+    color:#ffffff;
+    transform:translateY(-3px);
 }
 
-.copyright {
-    font-size: 12px;
-    color: var(--text-muted);
+/* Línea inferior */
+
+.footer-bottom{
+    border-top:1px solid rgba(52,28,84,.08);
+    margin-top:55px;
+    padding-top:25px;
+    text-align:center;
+}
+
+.copyright{
+    color:var(--text-muted);
+    font-size:13px;
+    margin-bottom:8px;
+}
+
+.footer-developed{
+    font-size:13px;
+    color:var(--primary-purple);
+    font-weight:600;
 }
 
 /* ==========================================================================
-   RESPONSIVE DESIGN
+   RESPONSIVE
    ========================================================================== */
-@media (max-width: 768px) {
-    .navbar-container {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .brand-logo-img {
-        height: 52px; /* Reducción controlada para armonía en pantallas móviles */
-    }
-    .nav-menu {
-        gap: 20px;
-    }
-    .intro-container {
-        grid-template-columns: 1fr;
-        gap: 40px;
-        text-align: center;
-    }
-    .intro-image-side {
-        order: -1; 
-    }
-    .featured-box {
-        padding: 40px 24px;
-    }
+
+@media(max-width:900px){
+
+.footer-container{
+
+grid-template-columns:1fr;
+gap:45px;
+text-align:center;
+
+}
+
+.footer-description{
+
+max-width:100%;
+
+}
+
+.footer-brand{
+
+align-items:center;
+
+}
+
+.footer-social{
+
+justify-content:center;
+
+}
+
 }
