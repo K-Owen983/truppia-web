@@ -739,3 +739,45 @@ padding:60px 6%;
 }
 
 }
+
+.legal-table{
+
+width:100%;
+border-collapse:collapse;
+margin:35px 0;
+
+}
+
+.legal-table th{
+
+background:var(--primary-purple);
+color:white;
+padding:16px;
+text-align:left;
+font-family:'Montserrat',sans-serif;
+
+}
+
+.legal-table td{
+
+padding:16px;
+border-bottom:1px solid rgba(52,28,84,.08);
+line-height:1.7;
+
+}
+
+.legal-table tr:nth-child(even){
+
+background:#faf9fc;
+
+}
+
+@media(max-width:768px){
+
+.legal-table{
+
+font-size:14px;
+
+}
+
+}
