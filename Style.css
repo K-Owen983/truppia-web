@@ -414,6 +414,58 @@ h1, h2, h3 {
     color: #c3a3dc;
     line-height: 1.2;
 }
+
+/* ==========================================================================
+   PANTALLA 7 - CONTACTO
+   ========================================================================== */
+
+.contact-section{
+    padding:120px 4% 0;
+    background:var(--white);
+    text-align:center;
+}
+
+.contact-container{
+    max-width:700px;
+    margin:0 auto 70px;
+}
+
+.contact-title{
+    font-size:clamp(38px,5vw,54px);
+    color:var(--primary-purple);
+    margin-bottom:18px;
+    font-weight:700;
+}
+
+.contact-subtitle{
+    font-size:18px;
+    color:var(--text-muted);
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+.email-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    background:var(--light-purple-bg);
+    padding:15px 28px;
+    border-radius:50px;
+    border:1px solid rgba(52,28,84,.08);
+}
+
+.email-icon{
+    color:var(--primary-purple);
+    font-size:18px;
+}
+
+.email-badge a{
+    text-decoration:none;
+    color:var(--primary-purple);
+    font-weight:700;
+    font-family:'Montserrat',sans-serif;
+}
+
 /* ==========================================================================
    FOOTER PREMIUM TRUPPIA
    ========================================================================== */
