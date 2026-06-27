@@ -65,17 +65,7 @@ function closeCookieModal(){
     cookieModal.style.display = "none";
 
 }
-function openCookieModal(){
 
-    cookieModal.style.display = "flex";
-
-}
-
-function closeCookieModal(){
-
-    cookieModal.style.display = "none";
-
-}
 /* ======================================================
    COOKIE PREFERENCES EVENTS
 ====================================================== */
