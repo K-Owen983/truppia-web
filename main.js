@@ -1,5 +1,8 @@
 /* ======================================================
-   TRUPPIA - MAIN JAVASCRIPT
+   TRUPPIA
+   MAIN JAVASCRIPT
+   Funcionalidades principales del sitio web
+   Versión 1.0
 ====================================================== */
 
 
@@ -36,4 +39,21 @@ localStorage.setItem("cookies-choice","rejected");
 cookieBanner.style.display="none";
 
 }
+
+/* ======================================================
+   COOKIE PREFERENCES MODAL
+====================================================== */
+
+const cookieModal = document.getElementById("cookie-modal");
+
+const cancelCookies = document.getElementById("cancel-cookies");
+
+const saveCookies = document.getElementById("save-cookies");
+
+/* ======================================================
+   FUTURAS FUNCIONALIDADES
+====================================================== */
+
+
+
 
