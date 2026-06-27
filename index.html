@@ -14,84 +14,6 @@
 
     <link rel="stylesheet" href="Style.css">
 </head>
-
-<!-- ======================================================
-     COOKIE BANNER
-====================================================== -->
-
-<div id="cookie-banner" class="cookie-banner">
-
-    <div class="cookie-content">
-
-        <div class="cookie-text">
-
-            <h3>🍪 Respetamos tu privacidad</h3>
-
-            <p>
-
-                Utilizamos cookies para mejorar tu experiencia de navegación,
-                analizar el uso del sitio web y optimizar nuestros servicios.
-
-                Puedes aceptar todas las cookies o consultar nuestra
-                <a href="cookies.html">Política de Cookies</a>.
-
-            </p>
-
-        </div>
-
-        <div class="cookie-buttons">
-
-            <button id="accept-cookies" class="cookie-btn primary">
-
-                Aceptar
-
-            </button>
-
-            <button id="reject-cookies" class="cookie-btn secondary">
-
-                Rechazar
-
-            </button>
-
-        </div>
-
-    </div>
-
-</div>
-    
-<body>
-
-<script>
-
-const cookieBanner=document.getElementById("cookie-banner");
-
-const accept=document.getElementById("accept-cookies");
-
-const reject=document.getElementById("reject-cookies");
-
-if(!localStorage.getItem("cookies-choice")){
-
-cookieBanner.style.display="block";
-
-}
-
-accept.onclick=function(){
-
-localStorage.setItem("cookies-choice","accepted");
-
-cookieBanner.style.display="none";
-
-}
-
-reject.onclick=function(){
-
-localStorage.setItem("cookies-choice","rejected");
-
-cookieBanner.style.display="none";
-
-}
-
-</script>    
     
 <header class="navbar">
     <div class="navbar-container">
@@ -462,3 +384,88 @@ cookieBanner.style.display="none";
     </div>
 
 </footer>
+
+<!-- ======================================================
+     COOKIE BANNER
+====================================================== -->
+
+<div id="cookie-banner" class="cookie-banner">
+
+    <div class="cookie-content">
+
+        <div class="cookie-text">
+
+            <h3>🍪 Respetamos tu privacidad</h3>
+
+            <p>
+
+                Utilizamos cookies para mejorar tu experiencia de navegación,
+                analizar el uso del sitio web y optimizar nuestros servicios.
+
+                Puedes aceptar todas las cookies o consultar nuestra
+                <a href="cookies.html">Política de Cookies</a>.
+
+            </p>
+
+        </div>
+
+        <div class="cookie-buttons">
+
+    <button id="settings-cookies" class="cookie-btn tertiary">
+
+        Configurar
+
+    </button>
+
+    <button id="reject-cookies" class="cookie-btn secondary">
+
+        Rechazar
+
+    </button>
+
+    <button id="accept-cookies" class="cookie-btn primary">
+
+        Aceptar
+
+    </button>
+
+</div>
+
+    </div>
+
+</div>
+    
+<script>
+
+const cookieBanner=document.getElementById("cookie-banner");
+
+const accept=document.getElementById("accept-cookies");
+
+const reject=document.getElementById("reject-cookies");
+
+const settings=document.getElementById("settings-cookies");
+
+if(!localStorage.getItem("cookies-choice")){
+
+cookieBanner.style.display="block";
+
+}
+
+accept.onclick=function(){
+
+localStorage.setItem("cookies-choice","accepted");
+
+cookieBanner.style.display="none";
+
+}
+
+reject.onclick=function(){
+
+localStorage.setItem("cookies-choice","rejected");
+
+cookieBanner.style.display="none";
+
+}
+
+</script> 
+    
