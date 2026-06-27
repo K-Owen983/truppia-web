@@ -51,8 +51,56 @@ const cancelCookies = document.getElementById("cancel-cookies");
 const saveCookies = document.getElementById("save-cookies");
 
 /* ======================================================
-   FUTURAS FUNCIONALIDADES
+   COOKIE PREFERENCES MODAL
 ====================================================== */
+
+function openCookieModal(){
+
+    cookieModal.style.display = "flex";
+
+}
+
+function closeCookieModal(){
+
+    cookieModal.style.display = "none";
+
+}
+function openCookieModal(){
+
+    cookieModal.style.display = "flex";
+
+}
+
+function closeCookieModal(){
+
+    cookieModal.style.display = "none";
+
+}
+/* ======================================================
+   COOKIE PREFERENCES EVENTS
+====================================================== */
+
+settings.onclick = function () {
+
+    openCookieModal();
+
+}
+
+cancelCookies.onclick = function () {
+
+    closeCookieModal();
+
+}
+
+saveCookies.onclick = function () {
+
+    localStorage.setItem("cookies-choice", "custom");
+
+    closeCookieModal();
+
+    cookieBanner.style.display = "none";
+
+}
 
 
 
