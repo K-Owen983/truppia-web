@@ -970,11 +970,11 @@ background:#ffffff;
 
 width:90%;
 
-max-width:760px;
+max-width:680px;
 
 border-radius:24px;
 
-padding:50px;
+padding:38px;
 
 box-shadow:0 30px 80px rgba(0,0,0,.25);
 
@@ -986,9 +986,11 @@ animation:popup .25s ease;
 
 font-family:'Montserrat',sans-serif;
 
-color:var(--primary-purple);
+font-size:30px;
 
 font-weight:800;
+
+color:var(--primary-purple);
 
 margin-bottom:18px;
 
@@ -998,9 +1000,9 @@ line-height:1.2;
 
 .cookie-modal-intro{
 
-font-size:17px;
+font-size:16px;
 
-line-height:1.8;
+line-height:1.65;
 
 margin-bottom:40px;
 
@@ -1018,7 +1020,7 @@ justify-content:space-between;
 
 align-items:center;
 
-padding:22px 0;
+padding:16px 0;
 
 border-bottom:1px solid #ececec;
 
@@ -1032,7 +1034,7 @@ display:block;
 
 font-family:'Montserrat',sans-serif;
 
-font-size:21px;
+font-size:18px;
 
 font-weight:700;
 
@@ -1048,7 +1050,7 @@ margin:0;
 
 color:#666;
 
-font-size:16px;
+font-size:15px;
 
 line-height:1.7;
 
