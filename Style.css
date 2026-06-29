@@ -135,7 +135,7 @@ h1, h2, h3 {
     font-size: clamp(48px, 8vw, 84px);
     line-height: 0.95;
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 700;
     text-shadow: 0 3px 15px rgba(0,0,0,0.35);
 }
